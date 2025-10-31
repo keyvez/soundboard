@@ -1,0 +1,14 @@
+{
+  "name": "soundboard-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint",
+    "test:unit": "pnpm --filter web test:unit",
+    "test:contract": "pnpm --filter web test:contract",
+    "test:integration": "pnpm --filter web test:integration"
+  }
+}
