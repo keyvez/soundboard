@@ -4,7 +4,8 @@
   "packageManager": "pnpm@9.0.0",
   "scripts": {
     "dev": "pnpm --filter web dev",
-    "build": "pnpm --filter web build",
+    "build": "cd app && npm install --cache /tmp/npm-cache --force && npm run build",
+    "build:app": "cd app && npm run build",
     "start": "pnpm --filter web start",
     "lint": "pnpm --filter web lint",
     "test:unit": "pnpm --filter web test:unit",

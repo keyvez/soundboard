@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+build/
+dist/
+.next/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Wrangler
+.wrangler/
+
+# Cache
+.cache/
+
+# Editor
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.zip
+package-lock.json
+
+# Specify files
+.specify/
+specs/
+docs/
